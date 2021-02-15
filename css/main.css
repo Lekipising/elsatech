@@ -1,0 +1,378 @@
+* {
+    background-color: #64485C;
+
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
+}
+
+.logoimage {
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-bottom: 40px;
+    /* border: 3px solid #ec4705; */
+}
+
+#brandname {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+
+.topnav {
+    background-color: #2E1114;
+    padding: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    /* border: 3px solid #ec4705; */
+    height: 50px;
+}
+
+.topnav a {
+    background-color: #2E1114;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
+.topnav a:hover{
+    background-color: #FFFFFF;
+    color: #2E1114;
+}
+
+.topnav a:active{
+    color: #2E1114;
+
+}
+
+.toptrend {
+    /* border: 3px solid #ec4705; */
+    position: relative;
+}
+
+.toptrend .toptrendimg {
+    width: 100%;
+    height: 600px;
+    opacity: 0.4;
+    
+}
+
+.toptrend .overimg {
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    font-size: 50px;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    position: absolute;
+    background: transparent;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    
+
+
+}
+
+.trends {
+    /* border: 3px solid #ec4705; */
+    margin: auto;
+    margin-top: 60px;
+}
+
+.trends .trend1 {
+    /* border: 3px solid #ec4705; */
+    /* float: left; */
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.trends .trend1 .trend1img {
+    width: 300px;
+    height: 200px;
+}
+
+.trends .trend1 .trend1p {
+    font-style: italic;
+    color: darksalmon;
+    display: block;
+}
+
+.trends .trend2 {
+    /* border: 3px solid #ec4705; */
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.trends .trend2 .trend2img {
+    width: 300px;
+    height: 200px;
+}
+
+.trends .trend2 .trend2p {
+    font-style: italic;
+    color: darksalmon;
+    display: block;
+}
+.trends .trend3 {
+    /* border: 3px solid #ec4705; */
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    display: inline-block;
+    
+}
+
+.trends .trend3 .trend3img {
+    width: 300px;
+    height: 200px;
+}
+
+.trends .trend3 .trend3p {
+    font-style: italic;
+    color: darksalmon;
+    display: block;
+}
+
+
+.quote .quotep {
+    font-style: italic;
+    color: darksalmon;
+    display: block;
+    text-align: center;
+    font-size: 35px;
+}
+
+.quote .quotep .quoteby {
+    font-style: italic;
+    color: darksalmon;
+    display: block;
+    text-align: right;
+}
+
+.footer {
+    /* border: 3px solid #ec4705; */
+    background-color: #1A1A1D;
+}
+
+.footer .footerp {
+    text-align: left;
+    background-color: #1A1A1D;
+    margin: auto;
+    max-width: 300px;
+    padding-bottom: 20px;
+}
+
+.footer .footerp a {
+    text-align: center;
+    color: white;
+    background-color: #1A1A1D;
+
+}
+
+.footer .social {
+    color: white;
+    background-color: #1A1A1D;
+    margin: auto;
+    max-width: 300px;
+
+}
+
+.footer .social a {
+    color: darksalmon;
+    background-color: #1A1A1D;
+}
+
+.contactdiv {
+    padding-bottom: 100px;
+}
+
+input {
+    width: 40%;
+    height: 30px;
+}
+
+#message {
+    width: 80%;
+}
+
+label {
+    color: #FFFFFF;
+    font-size: large;
+    font-weight: bolder;
+    
+}
+
+textarea {
+    border: 2px solid #2E1114;
+    border-radius: 8px;
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    resize: none;
+    color: antiquewhite;
+}
+
+input {
+    border: 2px solid #2E1114;
+    border-radius: 8px;
+    color: antiquewhite;
+}
+
+input[type=submit]{
+    background-color: #2E1114;
+    color: #FFFFFF;
+    font-size: 25px;
+    position: absolute;
+    border-radius: 8px;
+}
+
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 80%;
+}
+
+.social {
+    margin: auto;
+}
+
+.social a {
+    color: white;
+    text-decoration: none;
+}
+
+.socialhead {
+    padding-top: 40px;
+    color: #1A1A1D;
+    font-style: italic;
+}
+
+.messagehead {
+    color: #1A1A1D;
+    font-style: italic;
+}
+
+.contactdiv {
+    display: inline-block;
+}
+
+.aboutus {
+    color: #FFFFFF;
+    padding-bottom: 50px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    line-height: 200%;
+}
+
+h2 {
+    color: #1A1A1D;
+    font-style: italic;
+}
+
+.aboutus .background, .vision, .achievement {
+    text-align: justify;
+}
+
+.ourproducts{
+    padding-top: 50px;
+}
+
+.ourproducts h2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+}
+
+.trendslast {
+    /* border: 3px solid #ec4705; */
+    margin: auto;
+    margin-top: 60px;
+    padding-bottom: 50px;
+}
+
+.trendslast .trend1 {
+    /* border: 3px solid #ec4705; */
+    /* float: left; */
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.trendslast .trend1 .trend1img {
+    width: 300px;
+    height: 200px;
+}
+
+.trendslast .trend1 .trend1p {
+    font-style: italic;
+    color: darksalmon;
+    display: block;
+}
+
+.trendslast .trend2 {
+    /* border: 3px solid #ec4705; */
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.trendslast .trend2 .trend2img {
+    width: 300px;
+    height: 200px;
+}
+
+.trendslast .trend2 .trend2p {
+    font-style: italic;
+    color: darksalmon;
+    display: block;
+}
+.trendslast .trend3 {
+    /* border: 3px solid #ec4705; */
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    display: inline-block;
+    
+}
+
+.trendslast .trend3 .trend3img {
+    width: 300px;
+    height: 200px;
+}
+
+.trendslast .trend3 .trend3p {
+    font-style: italic;
+    color: darksalmon;
+    display: block;
+}
