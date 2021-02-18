@@ -467,3 +467,24 @@ h2 {
     margin-left: 50px;
     margin-top: 43px;
 }
+
+.aboutimg {
+    margin-left: 50px;
+    
+}
+
+.aboutimg .aboutimgf {
+    width: 1100px;
+    margin-bottom: 50px;
+    align-content: center;
+}
+
+.aboutus .aboutimgfile {
+    height: 300px;
+    width: 700px;
+}
+
+.aboutus .vision a {
+    color: #2E1114;
+    font-size: larger;
+}
