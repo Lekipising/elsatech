@@ -483,3 +483,8 @@ h2 {
     height: 300px;
     width: 700px;
 }
+
+.aboutus .vision a {
+    color: #2E1114;
+    font-size: larger;
+}
