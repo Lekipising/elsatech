@@ -18,7 +18,6 @@ h1 {
     height: 150px;
     float: left;
     margin-bottom: 40px;
-    /* border: 3px solid #ec4705; */
 }
 
 #brandname {
@@ -26,7 +25,7 @@ h1 {
     padding: 0px;
     margin: 0px;
     font-size: 60px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 
@@ -61,6 +60,9 @@ h1 {
 .toptrend {
     /* border: 3px solid #ec4705; */
     position: relative;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
 }
 
 .toptrend .toptrendimg {
@@ -70,12 +72,12 @@ h1 {
     
 }
 
-.toptrend .overimg {
+.toptrend .overimg1 {
     z-index: 999;
     margin: 0 auto;
     left: 0;
     right: 0;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     top: 40%;
     width: 100%;
@@ -84,15 +86,31 @@ h1 {
     color: #FFFFFF;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
-    
+}
 
-
+.toptrend .overimg2 {
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    text-align: center;
+    top: 52%;
+    width: 100%;
+    position: absolute;
+    background: transparent;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 }
 
 .trends {
     /* border: 3px solid #ec4705; */
     margin: auto;
     margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
 }
 
 .trends .trend1 {
@@ -107,7 +125,7 @@ h1 {
 
 .trends .trend1 .trend1img {
     width: 300px;
-    height: 200px;
+    height: 300px;
 }
 
 .trends .trend1 .trend1p {
@@ -127,7 +145,7 @@ h1 {
 
 .trends .trend2 .trend2img {
     width: 300px;
-    height: 200px;
+    height: 300px;
 }
 
 .trends .trend2 .trend2p {
@@ -146,7 +164,7 @@ h1 {
 
 .trends .trend3 .trend3img {
     width: 300px;
-    height: 200px;
+    height: 300px;
 }
 
 .trends .trend3 .trend3p {
@@ -156,12 +174,14 @@ h1 {
 }
 
 
+
 .quote .quotep {
     font-style: italic;
     color: darksalmon;
     display: block;
     text-align: center;
     font-size: 35px;
+    background-color: #2E1114;
 }
 
 .quote .quotep .quoteby {
@@ -169,11 +189,17 @@ h1 {
     color: darksalmon;
     display: block;
     text-align: right;
+    background-color: #2E1114;
 }
 
+.quote .quotep .quotemark {
+    background-color: #2E1114;
+    font-size: 60px;
+}
 .footer {
     /* border: 3px solid #ec4705; */
     background-color: #1A1A1D;
+    margin-bottom: 20px;
 }
 
 .footer .footerp {
@@ -267,14 +293,16 @@ input[type=text]:focus {
 }
 
 .socialhead {
-    padding-top: 40px;
-    color: #1A1A1D;
+    margin-top: 40px;
+    color: #FFFFFF;
     font-style: italic;
+    background-color: #2E1114;
 }
 
 .messagehead {
-    color: #1A1A1D;
+    color: #FFFFFF;
     font-style: italic;
+    background-color: #2E1114;
 }
 
 .contactdiv {
@@ -289,15 +317,18 @@ input[type=text]:focus {
     margin-left: 250px;
     margin-right: 250px;
     line-height: 200%;
+    
 }
 
 h2 {
-    color: #1A1A1D;
+    color: #FFFFFF;
     font-style: italic;
+    background-color: #2E1114;
 }
 
 .aboutus .background, .vision, .achievement {
     text-align: justify;
+    border-radius: 4px;
 }
 
 .ourproducts{
@@ -308,6 +339,10 @@ h2 {
     color: #FFFFFF;
     text-align: center;
     font-size: 30px;
+    background-color: #2E1114;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
 }
 
 .trendslast {
@@ -315,6 +350,9 @@ h2 {
     margin: auto;
     margin-top: 60px;
     padding-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
 }
 
 .trendslast .trend1 {
@@ -329,7 +367,7 @@ h2 {
 
 .trendslast .trend1 .trend1img {
     width: 300px;
-    height: 200px;
+    height: 300px;
 }
 
 .trendslast .trend1 .trend1p {
@@ -349,7 +387,7 @@ h2 {
 
 .trendslast .trend2 .trend2img {
     width: 300px;
-    height: 200px;
+    height: 300px;
 }
 
 .trendslast .trend2 .trend2p {
@@ -368,11 +406,64 @@ h2 {
 
 .trendslast .trend3 .trend3img {
     width: 300px;
-    height: 200px;
+    height: 300px;
 }
 
 .trendslast .trend3 .trend3p {
     font-style: italic;
     color: darksalmon;
     display: block;
+}
+
+.trends .trend1 .trend1p a {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.trends .trend2 .trend2p a {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.trends .trend3 .trend3p a {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.trendslast .trend1 .trend1p a {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.trendslast .trend2 .trend2p a {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.trendslast .trend3 .trend3p a {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.hometrend {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hometrend h2 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 30px;
+    background-color: #2E1114;
+}
+
+.map {
+    /* display: flex;
+    display: inline-block; */
+    position: absolute;
+    display: inline-flex;
+    padding-top: 0px;
+    max-height: 600px;
+    margin-left: 50px;
+    margin-top: 43px;
 }
