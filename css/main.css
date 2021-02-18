@@ -72,14 +72,30 @@ h1 {
     
 }
 
-.toptrend .overimg {
+.toptrend .overimg1 {
     z-index: 999;
     margin: 0 auto;
     left: 0;
     right: 0;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     top: 40%;
+    width: 100%;
+    position: absolute;
+    background: transparent;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.toptrend .overimg2 {
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    text-align: center;
+    top: 52%;
     width: 100%;
     position: absolute;
     background: transparent;
@@ -439,4 +455,15 @@ h2 {
     text-align: center;
     font-size: 30px;
     background-color: #2E1114;
+}
+
+.map {
+    /* display: flex;
+    display: inline-block; */
+    position: absolute;
+    display: inline-flex;
+    padding-top: 0px;
+    max-height: 600px;
+    margin-left: 50px;
+    margin-top: 43px;
 }
