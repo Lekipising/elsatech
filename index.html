@@ -13,24 +13,31 @@
 <body>
 
     <img src="images/logo.png" alt="logo" class="logoimage">
-    <div class="brandname"><h1 id="brandname">Dex Fashion</h1></div>
-    
-    
+    <div class="brandname">
+        <h1 id="brandname">Dex Fashion</h1>
+    </div>
+
+
     <div class="topnav">
         <a href="index.html">Home</a>
         <a href="shop.html">Shop</a>
         <a href="about.html">About Us</a>
         <a href="contact.html">Contact Us</a>
     </div>
-    
+
     <div class="toptrend">
         <img src="images/trendtop.webp" alt="" class="toptrendimg">
-        <div class="overimg1">Welcome to Dex Fashion!
+        <div class="overimg1"><button class="btn btn-primary" onclick="_hw('event', 'show-act')">Show Show</button>
+            <script>
+                (function (w, d, s, o, f, js, fjs) {
+                    w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+                    js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+                    js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+                }(window, document, 'script', '_hw', 'https://tzw-widget.herokuapp.com/widget.js'));
+                _hw('init', { debug: true, streamId: '5Es9RLsH3tA', stage: "dev" });
+            </script>
         </div>
-        <div class="overimg2">
-        Let's appreciate African fashion. Shop with us for trending <br>
-        African fashion. Look stylish and elegant!
-        </div>
+
     </div>
 
     <div class="hometrend">
@@ -42,26 +49,27 @@
             <img src="images/trend1.webp" alt="" class="trend1img">
             <span class="trend1p">Ankara Dress <br>
                 Get this dress at 10.99$ only <br>
-            <a href="shop.html"><strong>Shop</strong></a> </span>
+                <a href="shop.html"><strong>Shop</strong></a> </span>
         </div>
 
         <div class="trend2">
             <img src="images/trend2.jpg" alt="" class="trend2img">
             <span class="trend2p">Ankara Top<br>
                 Get this dress at 10.99$ only <br>
-                <a href="shop.html"><strong>Shop</strong></a>  </span>
+                <a href="shop.html"><strong>Shop</strong></a> </span>
         </div>
 
         <div class="trend3">
             <img src="images/trend3.webp" alt="" class="trend3img">
             <span class="trend3p">Ankara Full Suit<br>
                 Get this dress at 10.99$ only <br>
-                <a href="shop.html"><strong>Shop</strong></a>  </span>
+                <a href="shop.html"><strong>Shop</strong></a> </span>
         </div>
     </div>
     <div class="quote">
         <p class="quotep">
-            <strong class="quotemark">"</strong>Never try to fit in because we were all born to stand out.<strong class="quotemark">"</strong>
+            <strong class="quotemark">"</strong>Never try to fit in because we were all born to stand out.<strong
+                class="quotemark">"</strong>
             <span class="quoteby">~ Anonymous</span>
         </p>
     </div>
@@ -73,11 +81,12 @@
             <a href="contact.html">Contact Us</a>
         </p>
         <p class="social">Reach to us via social media <br>
-                <a href="#">Twitter</a> <br>
-                <a href="#">Facebook</a> <br>
-                <a href="#">Instagram</a> <br>
-                <a href="#">Our Youtube Channel</a> <br>
+            <a href="#">Twitter</a> <br>
+            <a href="#">Facebook</a> <br>
+            <a href="#">Instagram</a> <br>
+            <a href="#">Our Youtube Channel</a> <br>
         </p>
     </footer>
 </body>
+
 </html>
